@@ -314,6 +314,9 @@
   .w-\[63\%\] {
     width: 63%;
   }
+  .w-\[70px\] {
+    width: 70px;
+  }
   .w-\[85\%\] {
     width: 85%;
   }
@@ -323,20 +326,56 @@
   .w-\[100\%\] {
     width: 100%;
   }
+  .w-\[320px\] {
+    width: 320px;
+  }
+  .w-\[350px\] {
+    width: 350px;
+  }
+  .w-\[370px\] {
+    width: 370px;
+  }
+  .w-\[3650px\] {
+    width: 3650px;
+  }
   .w-fit {
     width: fit-content;
   }
   .w-full {
     width: 100%;
   }
+  .max-w-315 {
+    max-width: calc(var(--spacing) * 315);
+  }
+  .max-w-370 {
+    max-width: calc(var(--spacing) * 370);
+  }
   .max-w-\[1260px\] {
     max-width: 1260px;
+  }
+  .max-w-\[1280px\] {
+    max-width: 1280px;
   }
   .max-w-\[1460px\] {
     max-width: 1460px;
   }
+  .max-w-\[1480px\] {
+    max-width: 1480px;
+  }
   .max-w-\[1490px\] {
     max-width: 1490px;
+  }
+  .min-w-\[560px\] {
+    min-width: 560px;
+  }
+  .min-w-\[600px\] {
+    min-width: 600px;
+  }
+  .min-w-\[5600px\] {
+    min-width: 5600px;
+  }
+  .flex-1 {
+    flex: 1;
   }
   .border-collapse {
     border-collapse: collapse;
@@ -381,6 +420,9 @@
       margin-block-start: calc(calc(var(--spacing) * 4) * var(--tw-space-y-reverse));
       margin-block-end: calc(calc(var(--spacing) * 4) * calc(1 - var(--tw-space-y-reverse)));
     }
+  }
+  .overflow-x-hidden {
+    overflow-x: hidden;
   }
   .rounded-full {
     border-radius: calc(infinity * 1px);
@@ -643,9 +685,54 @@
       display: none;
     }
   }
+  .lg\:w-\[27px\] {
+    @media (width >= 64rem) {
+      width: 27px;
+    }
+  }
   .lg\:w-\[46\%\] {
     @media (width >= 64rem) {
       width: 46%;
+    }
+  }
+  .lg\:w-\[220px\] {
+    @media (width >= 64rem) {
+      width: 220px;
+    }
+  }
+  .lg\:w-\[230px\] {
+    @media (width >= 64rem) {
+      width: 230px;
+    }
+  }
+  .lg\:w-\[250px\] {
+    @media (width >= 64rem) {
+      width: 250px;
+    }
+  }
+  .lg\:w-\[275px\] {
+    @media (width >= 64rem) {
+      width: 275px;
+    }
+  }
+  .lg\:w-\[315px\] {
+    @media (width >= 64rem) {
+      width: 315px;
+    }
+  }
+  .lg\:w-\[355px\] {
+    @media (width >= 64rem) {
+      width: 355px;
+    }
+  }
+  .lg\:w-\[400px\] {
+    @media (width >= 64rem) {
+      width: 400px;
+    }
+  }
+  .lg\:w-px {
+    @media (width >= 64rem) {
+      width: 1px;
     }
   }
   .lg\:justify-start {
